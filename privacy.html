@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy — Docker Local</title>
+<style>body{max-width:720px;margin:64px auto;padding:0 24px;font:17px/1.65 system-ui,sans-serif;color:#202124}h1,h2{line-height:1.25}a{color:#1658bc}</style>
+<main>
+<p><a href="index.html">Docker Local</a></p>
+<h1>Privacy policy</h1>
+<p>Effective October 25, 2026. Docker Local is a private, owner-operated automation application running in a local n8n installation.</p>
+<h2>Data accessed and purpose</h2>
+<p>The application accesses the Google spreadsheet selected by its owner, including spreadsheet content and associated file metadata needed to locate and monitor it. It reads product-image links and related workflow input, generates image-description prompts, and writes the results to the selected spreadsheet. Google authorization is used only to operate these owner-configured workflows.</p>
+<h2>Processing and service providers</h2>
+<p>The local workflow requests images from the hosts in the selected product-image links. Image content and the instructions needed to generate prompts are sent to Google's Gemini API. Spreadsheet reads and writes use Google's APIs. Google and image-hosting providers process these requests under their own service terms and privacy policies.</p>
+<h2>Local storage and retention</h2>
+<p>Google OAuth credentials are stored encrypted by the local n8n installation. Workflow execution records and temporary image files may be retained locally for operation and troubleshooting. Execution-history pruning is configured for seven days and a maximum of 1,000 executions; this setting does not itself guarantee that all backups or temporary files are deleted within seven days. Generated prompts remain in the owner's spreadsheet until the owner edits or deletes them.</p>
+<h2>Sharing and use restrictions</h2>
+<p>The operator does not sell Google user data or use it for advertising. Data is sent to the service providers described above to perform the configured workflow. The application does not offer public accounts or publish spreadsheet contents on this informational website.</p>
+<p>Docker Local's use and transfer of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+<h2>Control and deletion</h2>
+<p>The owner can stop the local workflow, remove stored credentials and execution data from n8n, delete spreadsheet content, and revoke the application's authorization from their Google Account's third-party connections settings. Revoking authorization does not automatically delete previously generated spreadsheet content or local backups.</p>
+<h2>Contact and changes</h2>
+<p>This application is operated only by its owner. The support contact shown on the Google OAuth consent screen is the application's contact for privacy questions. This page will be updated if the application's data practices change.</p>
+</main>
+</html>
